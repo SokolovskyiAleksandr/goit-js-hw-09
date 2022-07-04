@@ -47,6 +47,7 @@ function clickStart() {
     timerDisplay.seconds.textContent = seconds;
   }, 1000);
 }
+
 function convertMs(ms) {
   // Number of milliseconds per unit of time
   const second = 1000;
